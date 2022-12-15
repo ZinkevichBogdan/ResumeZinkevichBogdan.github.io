@@ -1,0 +1,161 @@
+body {
+   box-sizing: border-box;
+   font-family: 'Montserrat', sans-serif;
+   background-color: #F5F7FA;
+}
+
+.my_photo {
+   width: 330px;
+}
+
+
+.conteiner {
+   display: flex;
+   flex-direction: row-reverse;
+   width: 1200px;
+   background-color: #fff;
+   margin: 40px auto;
+}
+
+
+/*  main-content-section   */
+
+.content-section {
+   padding: 50px 90px;
+}
+
+.about-me-section {
+   margin-bottom: 25px;
+}
+
+.about-me-section>h1 {
+   color: #000;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 45px;
+   line-height: 55px;
+   margin: 0 0 20px 0;
+}
+
+.about-me-section>h2 {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 17px;
+   color: #000;
+   margin: 0 0 20px 0;
+}
+
+.about-me-section>p {
+   font-style: normal;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 24px;
+   color: #595959;
+   width: 400px;
+}
+
+/*  my-work-experience  */
+
+.expiriance-section>h3 {
+   margin: 0 0 10px 0;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 21px;
+   line-height: 27px;
+   color: #000;
+}
+
+.expiriance-block > h4 {
+   margin: 0 0 10px 0;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 24px;
+   color: #000000;
+}
+
+.expiriance-time {
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 24px;
+   color: #595959;
+   margin: 0 0 10px 0;
+}
+
+.expiriance-list {
+   font-style: normal;
+   font-weight: normal;
+   padding-left: 18px;
+   font-size: 14px;
+   line-height: 24px;
+   color: #595959;
+}
+
+.expiriance-text {
+   color: #FB6D3A;
+}
+
+
+/*  sidebar  */
+
+.sidebar-section {
+   background-color: #1E2939;
+   width: 370px;
+   padding: 44px 0;
+}
+
+
+.sidebar-title {
+   font-style: normal;
+   font-weight: bold;
+   font-size: 22px;
+   line-height: 27px;
+   color: #fff;
+}
+
+.contacts-section-type {
+   font-style: normal;
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 24px;
+   color: #fff;
+   margin-right: 7px;
+}
+
+.contacts-section-link {
+   color: #fff;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 24px;
+}
+
+
+/*   tech-slills , Soft section  */
+.contacts-section,
+.tech-section,
+.soft-section {
+   margin: 50px 0 0 40px;
+}
+
+.tech-list,
+.soft-list {
+   padding: 0 0 0 17px;
+}
+
+.tech-list,
+.soft-list > li {
+   color: #FB6D3A;
+}
+
+.tech-item-text,
+.soft-item-text {
+   color: #fff;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 24px;
+}
+
